@@ -1,3 +1,5 @@
 venv
 .env
 DataLoader/PyPDFLoader/Emotion.pdf
+requirements.txt
+LLMs
