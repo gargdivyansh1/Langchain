@@ -10,7 +10,7 @@ llm = HuggingFaceEndpoint(
     repo_id="HuggingFaceH4/zephyr-7b-beta",   
     task="text-generation",
     huggingfacehub_api_token=hf_token
-)
+) # type: ignore
 
 model = ChatHuggingFace(llm=llm)
 
